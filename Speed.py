@@ -53,7 +53,7 @@ def testar_desempenho():
     print(f"Tempo com 10 threads: {tempo_10_threads:.2f} segundos\n")
 
     resultados = [
-        (1, tempo_serial, 1.0, 1.0),  # Serial
+        (1, tempo_serial, 1.0, 1.0),  
         (2, tempo_2_threads, tempo_serial / tempo_2_threads, (tempo_serial / tempo_2_threads) / 2),  
         (10, tempo_10_threads, tempo_serial / tempo_10_threads, (tempo_serial / tempo_10_threads) / 10),  
     ]
