@@ -54,8 +54,8 @@ def testar_desempenho():
 
     resultados = [
         (1, tempo_serial, 1.0, 1.0),  # Serial
-        (2, tempo_2_threads, tempo_serial / tempo_2_threads, (tempo_serial / tempo_2_threads) / 2),  # 2 Threads
-        (10, tempo_10_threads, tempo_serial / tempo_10_threads, (tempo_serial / tempo_10_threads) / 10),  # 10 Threads
+        (2, tempo_2_threads, tempo_serial / tempo_2_threads, (tempo_serial / tempo_2_threads) / 2),  
+        (10, tempo_10_threads, tempo_serial / tempo_10_threads, (tempo_serial / tempo_10_threads) / 10),  
     ]
 
     print("Tabela de Speedups e Eficiências:")
